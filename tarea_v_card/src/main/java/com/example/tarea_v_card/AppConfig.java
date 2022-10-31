@@ -27,7 +27,7 @@ public class AppConfig {
                 "mayrapenafiel@gmail.com",
                 "089448751",
                 "Gerente General",
-                "/images/foto_perfil.jpg");
+                "https://drive.google.com/file/d/1nfjmxKSItxePGK-bAeAzQQdqXWzPxWu5/view?usp=sharing");
         System.out.println(e1);
         Empleado e2 = new Empleado(
                 "Amber",
@@ -35,7 +35,7 @@ public class AppConfig {
                 "LimAmber@naver.com",
                 "0979874561",
                 "Ejecutivo Administrador",
-                "/images/amber.jpg");
+                "");
         System.out.println(e2);
         Empleado e3 = new Empleado(
                 "Kai",
@@ -43,7 +43,7 @@ public class AppConfig {
                 "Kaibear@naver.com",
                 "0987456321",
                 "Gerente de Marketing",
-                "/images/exo-kai.png");
+                "");
         System.out.println(e3);
         return Arrays.asList(e1,e2,e3);
         
