@@ -45,7 +45,6 @@ public class AppConfig {
                 "Gerente de Marketing",
                 "images/exo-kai.png");
         System.out.println(e3);
-        registrarItems().add(e1);
         /*registrarItems().add(2, e2);
         registrarItems().add(3, e3);*/
 

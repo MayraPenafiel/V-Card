@@ -26,8 +26,6 @@ public class CardController {
     public String ver(Model model){
         model.addAttribute("card", card);
         model.addAttribute("titulo", "Card V");
-        model.addAttribute("empleados",card.getEmpleados());
-        System.out.println(card.getEmpleados().toString());
         return "ver";
     }
 }
